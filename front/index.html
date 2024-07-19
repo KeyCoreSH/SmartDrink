@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Múltiplos Copos Enchendo e Esvaziando</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/favicoon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../front/assets/css/conf.css">
+    <link rel="stylesheet" href="../front/assets/css/header.css">
+    <link rel="stylesheet" href="../front/assets/css/main.css">
+    <link rel="stylesheet" href="../front/assets/css/close.css">
+    <title>SmartDrink</title>
 </head>
-<body>
-    
-    <div class="flex-container">
-        <div class="chope-containers">
-            <!-- Copos serão inseridos aqui -->
-            <div class="container" id="drink1"><div class="water"></div></div>
-            <!-- <div class="container" id="water2"><div class="water"></div></div>
-            <div class="container" id="water3"><div class="water"></div></div>
-            <div class="container" id="water4"><div class="water"></div></div>
-            <div class="container" id="water5"><div class="water"></div></div>
-            <div class="container" id="water6"><div class="water"></div></div>
-            <div class="container" id="water7"><div class="water"></div></div>
-            <div class="container" id="water8"><div class="water"></div></div> -->
-        </div>
-        <div class="low-fill-list">
-            <h3>Drinks < 30%</h3>
-            <ul id="lowList"></ul>
-        </div>
-    </div>
 
-    <script src="./assets/js/app.js"></script>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../front/assets/img/smart.png">
+        </div>
+    </header>
+    <main>
+        <div class="container" id="card-container">
+
+        </div>
+
+        <div class="bg" id="close-account">
+            <div class="close_account">
+                <p class="table">1</p>
+                <ion-icon class="closer" name="close-outline"></ion-icon>
+                <div class="box"></div>
+                <div class="buttons">
+                    <button class="put"><span class="on">Adicionar Bolacha</span><span class="check"><ion-icon name="checkmark-done-sharp"></ion-icon></span></button>
+                    <button class="close ">Fechar conta</button>
+                </div>
+                <div class="numbers">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
+
 </html>

@@ -1,0 +1,8 @@
+header {
+    background: linear-gradient(to right, #004AAD, #CB6CE6);
+    padding: 2rem 1rem;
+}
+
+header .logo img {
+    width: 20rem;
+}
